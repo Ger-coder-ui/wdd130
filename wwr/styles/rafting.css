@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #EAFFFD;/*Azure*/
+    --secondary-color: #DFDFE1;/*Platinum*/
+    --background-color: #99E2FF;/*Non Photo Blue*/
+    --text-color: #AD97AF;/*Rosequartz*/
+    --font-family: Roboto,Parkinsans;
+}
+
+body {
+    font-family: 
+    var(--font-family);
+    
+}
+h1,h2,h3 {
+    color: var(--primary-color)
+}
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+a { 
+    text-decoration: none;/*remove underlines*/
+}
+.div{
+    display: block;
+    width: 100%;
+    height:auto;
+}
