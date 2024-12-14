@@ -84,3 +84,20 @@ footer {
     background-color: #99E2FF;
     color:#EAFFFD
 }
+
+.social-media {
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.social-media a {
+    margin-left:10px;
+}
+
+.social-media img {
+    width:30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
