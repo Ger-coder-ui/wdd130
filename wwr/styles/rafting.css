@@ -27,3 +27,59 @@ a {
     width: 100%;
     height:auto;
 }
+
+#history {
+    padding: 20px;
+    background-color: #99E2FF;
+}
+
+#history h2 {
+    margin-top: 0;
+}
+
+#history p {
+    margin-bottom: 20px;
+}
+
+#history img {
+    width: 100%
+    object-fit cover;
+    border-radius: 10px
+
+}
+
+#adventures {
+    padding: 20px;
+}
+
+#adventures h2 {
+    margin-top: 0;
+}
+
+.adventure-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+figcaption {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #99E2FF;
+    color:#EAFFFD
+}
