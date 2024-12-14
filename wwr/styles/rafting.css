@@ -81,8 +81,8 @@ figcaption {
 }
 
 footer {
-    background-color: #99E2FF;
-    color:#EAFFFD
+    background-color: #8bdeff;
+    color:#45a8d6
 }
 
 .social-media {
@@ -100,8 +100,4 @@ footer {
     height: 50px;
     object-fit: cover;
     border-radius: 50%;
-}
-
-.social-media-media img:hover {
-    opacity: 0.8;
 }
