@@ -30,7 +30,7 @@ a {
 
 #history {
     padding: 20px;
-    background-color: #99E2FF;
+    background-color: #564957;
 }
 
 #history h2 {
@@ -42,8 +42,9 @@ a {
 }
 
 #history img {
-    width: 150px,
-    object-fit cover;
+    width: 200px;
+    height: 150;
+    object-fit: cover;
     border-radius: 10px
 
 }
@@ -67,7 +68,7 @@ figure {
 }
 
 figure img {
-    width: 150px;
+    width: 200px;
     height: auto;
     object-fit: cover;
     border-radius: 10px;
