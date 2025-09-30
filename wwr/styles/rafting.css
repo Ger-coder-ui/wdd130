@@ -1,0 +1,64 @@
+:root {
+    --primary-color:#3498db;
+    --secondary-color: #f1c40f;
+    --backgroung-color:#f9f9f9;
+    --text-color:#333;
+    --accent1-color:#264653;
+    --accent2-color:#e9c46a;
+    --hover-color:#2ecc71;
+    --heading-font: "Times New Roman","Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article {
+    margin: 16px;
+    padding: 8px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
