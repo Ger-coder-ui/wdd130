@@ -30,6 +30,12 @@ nav a {
     text-decoration: none;
     color: #000;
 }
+
+.section {
+    margin: 20px;
+    padding: 20px;
+    font-size: 18px;
+  }
  
 section h2 {
     margin-top: 0;
@@ -63,6 +69,7 @@ section p {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    justify-content: space-around;
 }
 
 body {
