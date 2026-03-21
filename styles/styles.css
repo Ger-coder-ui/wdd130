@@ -35,38 +35,43 @@ nav a:hover {
 
 /* Page Layout */
 main {
-    max-width: 800px;
+    max-width: 840px;
     margin: 2rem auto;
     text-align: center;
 }
 
+/* Profile Image inside main */
 main img {
+    width: 150px;
+    height: auto;
     border-radius: 8px;
 }
 
 /* Aside Styling */
 aside {
-    max-width: 800px;
-    margin: 2rem auto;
-    background-color: white;
+    width: 20rem;
+    margin: 1rem auto;
+    border: 1px solid rgb(0 0 0 / 0.2);
     padding: 1rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #eee;
+    color: #333;
     text-align: center;
 }
 
+/* Image inside aside */
 aside img {
-    width: 100%;
-    max-width: 400px;
+    width: 200px;
     height: auto;
-    border-radius: 8px;
+}
+
+/* Paragraph */
+p {
+    padding: 0;
 }
 
 /* Footer */
 footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
     text-align: center;
-    padding: 1rem;
-    background-color: #002b5b;
-    color: white;
-    margin-top: 2rem;
 }
