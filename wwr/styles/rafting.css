@@ -56,6 +56,22 @@ section {
     padding: 8px;
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 80%;
+    padding: 16px;
+    background-color: rgba(38, 70, 83, 0.85);
+    color: #fff;
+}
+
+.hero article p {
+    margin: 0;
+    padding: 10px;
+    line-height: 1.6;
+}
+
 /* Navigation */
 nav ul {
     display: flex;
