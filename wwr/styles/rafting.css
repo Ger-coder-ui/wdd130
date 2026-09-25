@@ -49,29 +49,6 @@ h2 {
     color: var(--accent1-color);
 }
 
-/* Basic Spacing */
-nav,
-section {
-    margin: 16px;
-    padding: 8px;
-}
-
-.hero article {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 80%;
-    padding: 16px;
-    background-color: rgba(38, 70, 83, 0.85);
-    color: #fff;
-}
-
-.hero article p {
-    margin: 0;
-    padding: 10px;
-    line-height: 1.6;
-}
-
 /* Navigation */
 nav ul {
     display: flex;
@@ -79,6 +56,39 @@ nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+}
+
+/* Basic Spacing */
+nav,
+section {
+    margin: 16px;
+    padding: 8px;
+}
+
+/* Hero Article */
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 75%;
+    padding: 16px;
+    margin: 0;
+    background-color: rgba(38, 70, 83, 0.85);
+    color: #fff;
+}
+
+/* Hero Article Paragraph */
+.hero article p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/* Image Inside Hero Article */
+.hero article img {
+    float: right;
+    width: 125px;
+    margin-left: 16px;
 }
 
 nav a {
