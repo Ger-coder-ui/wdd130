@@ -1,8 +1,5 @@
 :root {
     --primary-color: #a4c3d8;
-    --secondary-color: #f1c40f;
-    --background-color: #f9f9f9;
-    --text-color: #333;
     --accent1-color: #264653;
     --accent2-color: #e9c46a;
     --hover-color: #2ecc71;
@@ -49,14 +46,12 @@ header img {
 h1,
 h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
 
 /* Basic Spacing */
 nav,
-p,
-section,
-article {
+section {
     margin: 16px;
     padding: 8px;
 }
@@ -83,6 +78,11 @@ nav a:hover {
 /* Social Media Links */
 .socialmedia a {
     text-decoration: none;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: 40px;
 }
 
 /* Hero */
